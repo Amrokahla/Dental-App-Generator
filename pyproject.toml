@@ -1,0 +1,33 @@
+[project]
+name = "smile-generator"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Amr Kahla",email = "amrokahla@yahoo.com"}
+]
+readme = "README.md"
+requires-python = "3.10"
+dependencies = [
+    "opencv-python (>=4.12.0.88,<5.0.0.0)",
+    "cmake (>=4.1.0,<5.0.0)",
+    "dlib (>=20.0.0,<21.0.0)",
+    "matplotlib (>=3.10.6,<4.0.0)",
+    "pillow (>=11.3.0,<12.0.0)",
+    "diffusers (>=0.35.1,<0.36.0)",
+    "torch (>=2.8.0,<3.0.0)",
+    "transformers (>=4.56.1,<5.0.0)",
+    "accelerate (>=1.10.1,<2.0.0)",
+    "huggingface-hub[hf-xet] (>=0.35.0,<0.36.0)",
+    "requests (>=2.32.5,<3.0.0)",
+    "python-dotenv (>=1.1.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "pyinstaller (>=6.16.0,<7.0.0)"
+]

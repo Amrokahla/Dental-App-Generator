@@ -1,0 +1,13 @@
+venv/
+build/
+dist/
+assets/
+__pycache__/
+teethGenerator_WINDOWS_1.1_setup.exe
+*.env
+*.log
+*.pth
+*.exe
+*.dll
+*.so
+*.ico
